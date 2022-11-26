@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-This module contains the subclass: User
+Defines the subclass: User
 """
 from models.base_model import BaseModel
 
