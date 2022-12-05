@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     This class is for testing Review.
     """
+
     def setUp(self):
         """
         Setup method.
@@ -55,6 +56,7 @@ class TestBaseClass(unittest.TestCase):
         self.assertEqual(self.Review1.place_id, "")
         self.assertEqual(self.Review1.user_id, "")
         self.assertEqual(self.Review1.text, "")
+
 
 if __name__ == "__main__":
     unittest.main()

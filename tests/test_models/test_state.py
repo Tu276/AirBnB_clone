@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     This class is for testing State.
     """
+
     def setUp(self):
         """
         Setup method.
@@ -53,6 +54,7 @@ class TestBaseClass(unittest.TestCase):
         Tests the init method.
         """
         self.assertEqual(self.State1.name, "")
+
 
 if __name__ == "__main__":
     unittest.main()

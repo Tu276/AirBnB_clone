@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     This class is for testing Place.
     """
+
     def setUp(self):
         """
         Setup method.
@@ -63,6 +64,7 @@ class TestBaseClass(unittest.TestCase):
         self.assertEqual(self.Place1.latitude, 0.0)
         self.assertEqual(self.Place1.longitude, 0.0)
         self.assertEqual(self.Place1.amenity_ids, [])
+
 
 if __name__ == "__main__":
     unittest.main()

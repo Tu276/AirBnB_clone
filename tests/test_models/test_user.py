@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     This class is for testing User.
     """
+
     def setUp(self):
         """
         Setup method.
@@ -56,6 +57,7 @@ class TestBaseClass(unittest.TestCase):
         self.assertEqual(self.User1.password, "")
         self.assertEqual(self.User1.first_name, "")
         self.assertEqual(self.User1.last_name, "")
+
 
 if __name__ == "__main__":
     unittest.main()

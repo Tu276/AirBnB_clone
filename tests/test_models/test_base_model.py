@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     Pr class inst.
     """
+
     def setUp(self):
         """
         Pr class method.
@@ -77,9 +78,9 @@ class TestBaseClass(unittest.TestCase):
         Test __str__.
         """
         expected_display = "[{}] ({}) {}".format(
-                self.BaseModel1.__class__.__name__,
-                self.BaseModel1.id,
-                self.BaseModel1.__dict__)
+            self.BaseModel1.__class__.__name__,
+            self.BaseModel1.id,
+            self.BaseModel1.__dict__)
         self.assertEqual(self.BaseModel1.__str__(), expected_display)
 
     def test_save(self):
@@ -106,6 +107,7 @@ class TestBaseClass(unittest.TestCase):
         # set attr and test it
         self.BaseModel1.Job = "Code Monkey"
         self.assertTrue(self.BaseModel1.Job, exists)
+
 
 if __name__ == "__main__":
     unittest.main()

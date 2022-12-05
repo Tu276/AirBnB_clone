@@ -14,6 +14,7 @@ class TestBaseClass(unittest.TestCase):
     """
     This class is for testing City.
     """
+
     def setUp(self):
         """
         Setup method.
@@ -54,6 +55,7 @@ class TestBaseClass(unittest.TestCase):
         """
         self.assertEqual(self.City1.name, "")
         self.assertEqual(self.City1.state_id, "")
+
 
 if __name__ == "__main__":
     unittest.main()
