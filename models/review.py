@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Subclass Review
+Subclass Review.
 """
 from models.base_model import BaseModel
 
