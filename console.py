@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""module of the command interpreter"""
+"""module of the command interpreter."""
 
 import cmd
 from models import storage
