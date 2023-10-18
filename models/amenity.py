@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Defines subclass Amenity
+Defines subclass Amenity.
 """
 from models.base_model import BaseModel
 
