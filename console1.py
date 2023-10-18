@@ -109,7 +109,7 @@ class HBNBCommand(cmd.Cmd):
         """
         This method prints a string representation
         of all objects based on the class name given
-        or all objects if no class given.
+        or all objects if no class is given.
         """
         if arg == "":
             for k in storage.all():
