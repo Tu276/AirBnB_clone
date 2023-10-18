@@ -13,7 +13,7 @@ time = "%Y-%m-%dT%H:%M:%S.%f"
 class BaseModel:
     """
     Superclass for all subsequent classes of
-    the AirBnB clone project.
+    the AirBnB clone project
     """
 
     def __init__(self, *args, **kwargs):
