@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-subclass State.
+subclass State
 """
 from models.base_model import BaseModel
 
