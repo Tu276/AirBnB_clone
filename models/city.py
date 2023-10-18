@@ -7,7 +7,7 @@ from models.base_model import BaseModel
 
 class City(BaseModel):
     """
-    Null ref BaseModel.
+    Null ref BaseModel
     """
     state_id = ""
     name = ""
