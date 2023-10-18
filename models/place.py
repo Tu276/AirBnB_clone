@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Defines modulr for the subclass Place
+Defines modulr for the subclass Place.
 """
 from models.base_model import BaseModel
 
