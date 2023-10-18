@@ -47,6 +47,7 @@ class TestFilestorageClass(unittest.TestCase):
         tests for module, class, & method documentation.
         """
         # Class docstring
+        
         self.assertTrue(len(FileStorage.__doc__) >= 1)
         # Method docstrings
         self.assertTrue(len(FileStorage.all.__doc__) >= 1)
